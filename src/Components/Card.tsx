@@ -23,7 +23,7 @@ const Card = ({ card }: Props): JSX.Element => {
     if (isDragging) {
         return (
             <div >
-                <div className='flex justify-center' ref={setNodeRef} {...listeners} {...attributes} style={style}>
+                <div className='flex justify-center' ref={setNodeRef}  style={style}>
                     <div
                         className="opacity-30 bg-mainBackgroundColor p-2.5 w-[90%] min-h-[76px] items-center flex text-left rounded-lg border-2 border-rose-500  cursor-grab relative mb-3 mt-3"
                     />
